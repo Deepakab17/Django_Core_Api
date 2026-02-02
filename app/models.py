@@ -18,4 +18,15 @@ class Player_Serializer(models.Model):
     jersy_number=models.IntegerField(max_length=3)
 
     def __str__(self):
-        return (self.name,self.country)
+        return self.name + " - " + self.country
+
+    
+
+# import dis
+# def add():
+#     a = 10
+#     b = 20
+#     return a + b
+
+# dis.dis(add)
+
