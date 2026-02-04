@@ -23,6 +23,7 @@ urlpatterns = [
     path('',landing,name='landing'),
     path('player_list/',player_list,name='list'),
     path('details/<int:id>/',details,name='details'),
+    path('players/',players,name='players')
     # path('register/',register,name='register')
 
 
